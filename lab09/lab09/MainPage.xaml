@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="lab09.MainPage">
+
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand">
+            <Label Text="LAB 09"
+            HorizontalOptions="Center" />
+            <Button Text="PanDemo" Clicked="PanDemo_Clicked"/>
+            <Button Text="PinchDemo" Clicked="PinchDemoo_Clicked"/>
+            <Button Text="SwipeDemo" Clicked="SwipeDemo_Clicked"/>
+            <Button Text="TapDemo" Clicked="TapDemo_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
